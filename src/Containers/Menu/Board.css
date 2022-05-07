@@ -1,0 +1,58 @@
+
+.Board
+{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.deco
+{
+    width: 700px;
+    height: 700px;
+    display: grid;
+    grid-template: repeat(2,1fr)/repeat(2, 1fr);
+}
+
+.green
+{
+    background-color: #00720d;
+    grid-area: 1/1/2/2;
+}
+.yellow
+{
+    background-color: #ffce1f;
+}
+.blue
+{
+    background-color: #00a7e8;
+}
+.red
+{
+    background-color: #ff0000 ;
+}
+
+
+
+
+/*colorer les teams*/
+.team_green
+{
+    background-color: #00720d;
+
+}
+.team_yellow
+{
+    background-color: #ffce1f;
+}
+.team_red
+{
+    background-color: #ff0000;
+}
+.team_blue
+{
+    background-color: #00a7e8;
+}
